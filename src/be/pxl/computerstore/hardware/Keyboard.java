@@ -9,4 +9,8 @@ public class Keyboard  extends Peripheral{
 		this.keyboardLayout = keyboardLayout;
 	}
 
+	public String getKeyboardLayout() {
+		return keyboardLayout;
+	}
+
 }
