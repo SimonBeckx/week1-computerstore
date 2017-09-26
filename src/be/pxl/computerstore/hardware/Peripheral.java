@@ -6,6 +6,7 @@ public abstract class Peripheral extends BasicComponent {
 		super(vendor, name, price);
 	}
 
+
 	
 	
 	

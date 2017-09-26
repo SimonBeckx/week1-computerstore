@@ -109,6 +109,11 @@ public class BasicComponent {
 	}
 	
 	
+	public String getShortDescription() {
+		return "" + this.getArticleNumber() + " * " + this.getName() + " * " + this.getPrice() +"€";
+	}
+	
+	
 	
 	
 	
