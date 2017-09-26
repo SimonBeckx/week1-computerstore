@@ -1,9 +1,12 @@
 package be.pxl.computerstore.hardware;
 
-public class Keyboard {
+public class Keyboard  extends Peripheral{
+	
+	private String keyboardLayout ;
 
-	public Keyboard(String vendor, String name, double price) {
-
+	public Keyboard(String vendor, String name, double price, String keyboardLayout) {
+		super(vendor, name, price);
+		this.keyboardLayout = keyboardLayout;
 	}
 
 }
