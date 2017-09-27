@@ -6,6 +6,11 @@ public abstract class Peripheral extends BasicComponent {
 		super(vendor, name, price);
 	}
 
+	
+	@Override
+	public String getShortDescription() {
+		return "" + this.getArticleNumber() + " * " + this.getClass().getSimpleName() +  " * "+ this.getName() + " * " + this.getPrice() +"€";
+	}
 
 	
 	
